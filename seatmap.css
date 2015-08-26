@@ -1,0 +1,57 @@
+
+
+
+
+#seat1,#seat3,#seat5,#seat7,#seat9,#seat2,#seat4,#seat6,#seat8,#seat10,#seat11,#seat12,#seat13,#seat14,#seat15{
+    background-color: #fa8970;
+    margin:40px;
+    height:40px;
+    width:40px;
+    transition: all 1s ease;
+    text-align: center;
+    font-family: cursive;
+    color:floralwhite;
+    padding:10px;
+}
+
+
+
+#seat1:hover,#seat3:hover,#seat5:hover,#seat7:hover,#seat9:hover,#seat2:hover,#seat4:hover,#seat6:hover,#seat8:hover,#seat10:hover,#seat11:hover,#seat12:hover,#seat13:hover,#seat14:hover,#seat15:hover{
+    transform: rotate(360deg);
+    cursor:pointer;
+}
+
+.seatclass{
+    float:left;
+
+}
+
+
+#seat2{
+    position:relative;
+    top:20px;
+}
+
+#seat4{
+    position:relative;
+    top:30px;
+}
+
+#seat6{
+    position:relative;
+    top:40px;
+}
+
+#seat8{
+    position:relative;
+    top:50px;
+}
+
+#seat10{
+    position:relative;
+    top:60px;
+}
+
+.buttondiv{
+    padding:50px;
+}

@@ -1,0 +1,179 @@
+#heading{
+    font-size:60px;
+    font-family: 'Montserrat','HelveticaNeue',sans-serif;
+    margin-top:10px;
+    margin-bottom:auto;
+    color:whitesmoke;
+    padding:100px;
+    border:10px dotted orange;
+    background-image: url(http://www.elmwoodreclaimedtimber.com/sites/default/files/styles/hero_image/public/hero-gallery/Heart-Pine-Restaurant-Table-Top_2.jpg?itok=YUmBj3FR);
+}
+
+
+ul li{
+    display:block;
+}
+
+
+h1,h6,label{
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.topul{
+
+
+    text-transform: uppercase;
+    vertical-align:middle;
+    color: #333;
+    transition: all .1s;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    padding: 0 .8125rem;
+    display: block;
+    font-family: 'Montserrat','HelveticaNeue',sans-serif;
+    position:absolute;
+    left:70%;
+
+}
+
+.bottomul{
+    width:120px;
+
+}
+
+a{
+    text-decoration:none;
+    \
+}
+ul li:hover{
+    cursor:pointer;
+    color:#fa8970;
+}
+
+
+.hov:hover{
+
+    transform: translate(50px);
+    cursor:pointer;
+
+}
+
+.footercopyright{
+    text-align: right;
+    text-transform: uppercase;
+    color: #337ab7;
+}
+#footer{
+    height: 200px;
+    background-color:lightgray;
+    position:relative;
+    top:20em;
+    box-shadow: 0 0 5px  #333;
+
+}
+
+.footerdiv{
+    margin: 0 auto;
+    width: 100%;
+    padding:0;
+
+}
+
+.padd{
+    padding:20px;
+}
+
+
+.box {
+    height: 40px;
+    padding:20px;
+}
+
+.bottom {
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.owneroptions{
+    font-family: 'Montserrat','HelveticaNeue',sans-serif;
+    font-size: 30px;
+    z-index: auto;
+
+}
+
+.owneroptions li,.bottomul li{
+    padding:5px;
+}
+
+
+.liclass{
+    float:left;
+}
+
+
+.footersociallinks{
+    text-align: right;
+
+}
+
+.divbody{
+    background-color:lightgray;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 310;
+}
+
+header.head{
+    float: left;
+    height: 2.5625rem;
+    margin-top: 1.53125rem;
+}
+
+
+.centeralign{
+    position:relative;
+    left:40%;
+    text-align:middle;
+    border:2 px solid black;
+    background:cadetblue;
+    width:300px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.middle{
+    padding:20px;
+    text-align:center;
+    margin-top:50px;
+}
+
+.seatmiddle{
+    position:relative;
+    left:35%;
+    width:300px;
+}
+
+.leftalign{
+    position:relative;
+    left:70%;
+    text-align:middle;
+    border:2 px solid black;
+    background:cadetblue;
+    width:500px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.rightborder{
+    border-right: 5px solid black
+}
